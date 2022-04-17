@@ -34,7 +34,8 @@
                             <goal>build</goal>
                         </goals>
                         <configuration>
-                            <compilationLevel>BUNDLE</compilationLevel>
+<!--                            我本地win10 环境下,js2l:watch仅可选BUNDLE和BUNDLE_JAR,js2l:build似乎会忽略该参数自动优化js-->
+                            <compilationLevel>BUNDLE_JAR</compilationLevel>
                         </configuration>
                     </execution>
                 </executions>
